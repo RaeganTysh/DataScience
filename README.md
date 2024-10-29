@@ -8,15 +8,19 @@ I have provided a brief overview of all the modules – this repo only contains 
 - [What is Data Science?](#what-is-data-science?)
 - [Tools for Data Science](#tools-for-data-science)
 - [Data Science Methodology](#data-science-methodology)
-- [Python for Data Science, AI & Development)](#python-for-ai-&-developemt)
-- [Data Visualization and Mapping](#data-visualization-and-mapping)
-- [Feature Engineering](#feature-engineering)
-- [Machine Learning Model Development](#machine-learning-model-development)
-- [Model Evaluation](#model-evaluation)
-- [Conclusion and Findings](#conclusion-and-findings)
+- [Python for Data Science, AI & Development)](#python-for-data-science-ai-&-developemt)
+- [Python Project for Data Science](#python-project-for-data-science)
+- [Databases and SQL for Data Science with Python](#database-and-sql-for-data-science-with-python)
+- [Data Analysis with Python](#data-analysis-with-python)
+- [Data Visualization with Pythonn](#data-cisualization-with-python)
+- [Machine Learning with Python](#machine-learning-with-python)
+- [Applied Data Science Capstone](#applied-data-science-capstone)
+- [Generative AI: Elevate Your Data Science Career](#generative-ai-elevate-your-science-career)
+- [Data Scientist Career Guide and Interview Preparation](#data-science-career-guide-and-interview-prperation)
+
 
 ## What is Data Science?
-An introduction to the field of data science, its significance, and its impact on various industries. Explore the core concepts and the role of data scientists in today’s data-driven world.
+An introduction to the field of data science, its significance, and its impact on various industries. Explore the core concepts and the role of data scientists in today’s data-driven world
 - Data Science,	Big Data,	Machine Learning,	Deep Learning,	Data Mining
 
 ## Tools for Data Science
@@ -24,47 +28,80 @@ A survey of essential tools and technologies used in data science, including pro
 - Data Science,	Python Programming,	Github,	Rstudio, Jupyter notebooks
 
 ## Data Science Methodology
-An overview of the structured approach to data science projects, covering the steps from problem definition to data collection, analysis, and deployment.
+An overview of the structured approach to data science projects, covering the steps from problem definition to data collection, analysis, and deployment
 - Data Science,	Data Analysis	CRISP-DM,	Methodology, Data Mining 
 
 ## Python for Data Science, AI & Development
 A deep dive into Python programming, emphasizing its applications in data science, artificial intelligence, and software development
 - Learn Python - the most popular programming language and for Data Science and Software Development
--	Apply Python programming logic Variables, Data Structures, Branching, Loops, Functions, Objects & Classes.
--	Demonstrate proficiency in using Python libraries such as Pandas & Numpy, and developing code using Jupyter Notebooks.
+-	Apply Python programming logic Variables, Data Structures, Branching, Loops, Functions, Objects & Classes
+-	Demonstrate proficiency in using Python libraries such as Pandas & Numpy, and developing code using Jupyter Notebooks
 -	Access and web scrape data using APIs and Python libraries like Beautiful Soup
-
-
-## Data Visualization and Mapping
-A Folium map was created to visualize the geographical distribution of launch sites and their outcomes. The map includes:
-- Markers: Indicating launch sites with color-coded markers for successful (green) and unsuccessful (red) launches.
-- Circles: Displaying the proximity of launch sites to nearby key locations, such as coastlines and highways.
-- Zoomed Views: Focused views on individual launch sites like Kennedy Space Center to highlight detailed launch histories.
-  <hr>
+	<br>
 -	Data Science,	Data Analysis, Python Programming, Numpy,	Pandas
 
+## Python Project for Data Science
+A hands-on project that applies Python skills to solve a real-world data science problem, enhancing practical experience
+-	Play the role of a Data Scientist / Data Analyst working on a real project
+-	Demonstrate your Skills in Python - the language of choice for Data Science and Data Analysis 
+-	Apply Python fundamentals, Python data structures, and working with data in Python
+-	Build a dashboard using Python and libraries like Pandas, Beautiful Soup and Plotly using Jupyter notebook
+	<br>
+-	Data Science,	Data Analysis, Python Programming, Pandas,	Jupyter Notebooks
 
-## Feature Engineering
-New features were engineered to enhance the predictive power of the machine learning model:
-- Derived Features: Created features such as "Distance to Coast" and "Payload-to-Orbit Ratio."
-- Categorical Encoding: Encoded categorical variables like "Orbit Type" and "Booster Version" into numerical formats.
-- Scaling and Normalization: Applied scaling techniques to normalize numerical features.
+## Databases and SQL for Data Science with Python
+Learn to manage and query databases using SQL, and understand how to integrate these skills with Python for data retrieval and analysis
+- Analyze data within a database using SQL and Python
+-	Create a relational database and work with multiple tables using DDL commands 
+-	Construct basic to intermediate level SQL queries using DML commands
+-	Compose more powerful queries with advanced SQL techniques like views, transactions, stored procedures, and joins 
+	<br>
+-	Python Programming,	Cloud Databases, Relational Database Management System (RDBMS),	SQL,	Jupyter notebooks
 
-## Machine Learning Model Development
-The predictive modeling process involved the following steps:
-1. Model Selection: Various models such as Logistic Regression, Decision Trees, Random Forests, and Support Vector Machines (SVM) were tested.
-2. Hyperparameter Tuning: Optimized model parameters using techniques like Grid Search and Random Search.
-3. Training and Validation: Split the dataset into training and test sets for model training and evaluation.
+## Data Analysis with Python
+Techniques and methodologies for analyzing data using Python libraries such as Pandas and NumPy, focusing on data cleaning, transformation, and exploratory analysis
+-	Develop Python code for cleaning and preparing data for analysis - including handling missing values, formatting, normalizing, and binning data
+-	Perform exploratory data analysis and apply analytical techniques to real-word datasets using libraries such as Pandas, Numpy and Scipy
+-	Manipulate data using dataframes, summarize data, understand data distribution, perform correlation and create data pipelines
+-	Build and evaluate regression models using machine learning scikit-learn library and use them for prediction and decision making]
+<br>
+-	Model Selection, Data Analysis,	Python Programming,	Data Visualization,	Predictive Modelling
 
-## Model Evaluation
-The model performance was evaluated using metrics like:
-- Accuracy: The percentage of correctly predicted outcomes.
-- Precision and Recall: To assess the model's ability to correctly identify successful launches.
-- Confusion Matrix: Provided a detailed breakdown of true positives, true negatives, false positives, and false negatives.
-- ROC Curve and AUC: Measured the model's ability to distinguish between successful and failed launches.
+## Data Visualization with Python
+An exploration of data visualization techniques using libraries like Matplotlib and Seaborn, emphasizing the importance of visual storytelling in data science
+- Implement data visualization techniques and plots using Python libraries, such as Matplotlib, Seaborn, and Folium to tell a stimulating story
+-	Create different types of charts and plots such as line, area, histograms, bar, pie, box, scatter, and bubble
+-	Create advanced visualizations such as waffle charts, word clouds, regression plots, maps with markers, & choropleth maps
+-	Generate interactive dashboards containing scatter, line, bar, bubble, pie, and sunburst charts using the Dash framework and Plotly library
+  <br>
+-	Python Programming,	Dashboards and Charts, Dash,	Data Visualization,	Matplotlib
 
-## Conclusion and Findings
-The analysis revealed several key insights:
-- Geographical Distribution: Launch sites on the East Coast tend to cater to geostationary missions, while West Coast sites focus on polar orbits.
-- Significant Factors: Variables such as payload mass, weather conditions, and orbit type have a considerable impact on launch success.
-- Model Accuracy: The best-performing model achieved an accuracy of over 85% in predicting launch outcomes.
+## Machine Learning with Python
+Introduction to machine learning concepts, algorithms, and techniques using Python. Build models for classification, regression, and clustering tasks
+- Describe the various types of Machine Learning algorithms and when to use them  
+-	Compare and contrast linear classification methods including multiclass prediction, support vector machines, and logistic regression  
+-	Write Python code that implements various classification techniques including K-Nearest neighbors (KNN), decision trees, and regression trees 
+-	Evaluate the results from simple linear, non-linear, and multiple regression on a data set using evaluation metrics
+  <br>
+-	Machine Learning,	Regression,	Hierarchical Clustering, Classification, SciPy and scikit-learn
+
+## Applied Data Science Capstone
+A comprehensive capstone project that integrates all learned skills to tackle a real-world data science challenge, showcasing the ability to apply knowledge practically.
+-	Demonstrate proficiency in data science and machine learning techniques using a real-world data set and prepare a report for stakeholders  
+-	Apply your skills to perform data collection, data wrangling, exploratory data analysis, data visualization model development, and model evaluation
+-	Write Python code to create machine learning models including support vector machines, decision tree classifiers, and k-nearest neighbors 
+-	Evaluate the results of machine learning models for predictive analysis, compare their strengths and weaknesses and identify the optimal model  
+<br>
+-	Github,	Jupyter Notebook,	K-Means Clustering,	Methodology, Data Science Methodology
+
+## Generative AI: Elevate Your Data Science Career
+A comprehensive capstone project that integrates all learned skills to tackle a real-world data science challenge, showcasing the ability to apply knowledge practically.
+-	Demonstrate proficiency in data science and machine learning techniques using a real-world data set and prepare a report for stakeholders  
+-	Apply your skills to perform data collection, data wrangling, exploratory data analysis, data visualization model development, and model evaluation
+-	Write Python code to create machine learning models including support vector machines, decision tree classifiers, and k-nearest neighbors 
+-	Evaluate the results of machine learning models for predictive analysis, compare their strengths and weaknesses and identify the optimal model  
+<br>
+-	Github,	Jupyter Notebook,	K-Means Clustering,	Methodology, Data Science Methodology
+
+## Data Scientist Career Guide and Interview Preparation
+Guidance on building a successful data science career, including resume tips, interview preparation, and essential skills to develop.
